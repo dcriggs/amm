@@ -10,10 +10,13 @@ export const ammSlice = createSlice({
     reducers: {
         setContract: (state, action) => {
             state.contract = action.payload
+        },
+        sharesLoaded: (state, action) => {
+            state.shares = action.payload
         }
     }
 });
 
-export const { setContract } = ammSlice.actions;
+export const { setContract, sharesLoaded } = ammSlice.actions;
 
 export default ammSlice.reducer;
