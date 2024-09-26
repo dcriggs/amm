@@ -35,11 +35,11 @@ const Navigation = () => {
       <img
         alt="logo"
         src={logo}
-        width="40"
-        height="40"
+        width="120"
+        height="120"
         className="d-inline-block align-top mx-3"
       />
-      <Navbar.Brand href="#">Dapp University AMM</Navbar.Brand>
+      <Navbar.Brand href="#">Dawson's Automated Market Maker (A.M.M.)</Navbar.Brand>
 
       <Navbar.Toggle aria-controls="nav" />
       <Navbar.Collapse id="nav" className="justify-content-end">
